@@ -1,0 +1,649 @@
+body {
+  margin: 0;
+  width: 100%;
+}
+body,html{
+  overflow-x: hidden;
+}
+.row {
+  width: 100%;
+}
+hr{
+  height:7px;
+  background-color:yellow;
+  border:none;
+  border-radius: 10px;
+  width:7%;
+  margin-left:6%;
+}
+/*navbar*/
+.navbar {
+  z-index: 1;
+  position: fixed;
+}
+
+.navbar.navbar-custom {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.header-content {
+  padding-top: calc(3.4375rem + 4rem);
+}
+
+.container-fluid {
+  height: 50vh;
+}
+
+.navbar-nav {
+  margin-left: 40%;
+}
+
+.navbar-toggler {
+  background-color: #344571;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+.icon-1 {
+  background-color: #E98580;
+}
+
+.icon-2 {
+  background-color: #48B836;
+}
+
+.icon-3 {
+  background-color: #587BD7;
+}
+
+.icon-4 {
+  background-color: #D0D40A;
+}
+
+.icon-5 {
+  background-color: #22C7A9;
+}
+
+.navbar p {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.navbar h6 {
+  color: black;
+  font-size: 15px;
+  font-family: 'Concert One', cursive;
+}
+
+.navbar li {
+  margin-right: 2vh;
+}
+
+/*main-section*/
+.top {
+  height: auto;
+}
+
+.icons h4 {
+  margin: 0;
+  font-size: 22px;
+  margin-left: 2%;
+  font-family: 'Concert One', cursive;
+}
+
+.icons img {
+  width: 20%;
+  height: 20%;
+  margin: auto;
+}
+
+.explore {
+  margin-left: 20%;
+}
+
+.book {
+  margin-left: 40%;
+}
+
+.child {
+  margin-left: 60%;
+}
+
+/*Welcome*/
+.kids {
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.welcome {
+  margin-top: 5%;
+}
+
+.welcome-section .row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcome h1 {
+  text-align: center;
+  color: #ED002B;
+  font-family: 'Concert One', cursive;
+}
+
+.welcome p {
+  text-align: justify;
+  font-family: 'Handlee', cursive;
+  font-size: 20px;
+}
+
+.btn {
+  margin-left: 30%;
+  border-radius: 50px;
+  background-color: #22C7A9;
+  color: white;
+  border: none;
+  font-family: 'Handlee', cursive;
+}
+
+/*Cards*/
+.card1 {
+  background-color: #F8C40B;
+}
+
+.card2 {
+  background-color: #C965C5;
+}
+
+.card3 {
+  background-color: #FF4040;
+}
+
+.card4 {
+  background-color: #27E35C;
+}
+
+.programs {
+  width: 100%;
+}
+.programs h1{
+  font-family: 'Concert One', cursive;
+  margin-left:5%;
+  padding-top:2%;
+}
+.programs .row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.programs .card .card-image {
+  border-radius: 100%;
+  width: 7vh;
+  height: 7vh;
+  position: relative;
+  left: 40%;
+  top: 10px;
+  z-index: 1;
+}
+
+.programs .card p {
+  text-align: justify;
+  color: white;
+  font-family: 'Handlee', cursive;
+}
+
+.programs .card {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  transition: 1s;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  border-radius: 20px;
+}
+
+.programs .card-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, -40px) rotateY(180deg);
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 5px solid #fff;
+}
+
+.programs .card:hover {
+  transform: rotateY(180deg);
+}
+
+.programs .card:hover .card-top {
+  display: none;
+}
+
+.card-top {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size:20px;
+
+}
+
+.programs .card-body .bg {
+  position: absolute;
+  background: #fff;
+  border-radius: 100px;
+  transition: .5s;
+}
+
+.programs .card:hover .card-body .bg {
+  width: 200%;
+  transition-delay: 1s;
+  background-color: white;
+  color: black;
+}
+
+.programs .content {
+  position: relative;
+  opacity: 0;
+  transition: .5s;
+  text-align: center;
+}
+
+.programs .title {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #292929;
+  text-transform: uppercase;
+}
+
+.programs .card:hover .content {
+  opacity: 1;
+  transition-delay: 1s;
+}
+
+/*About*/
+.about p {
+  width: 100%;
+  display: block;
+  box-shadow: 2px;
+  z-index: 2;
+}
+.about h1{
+  font-family: 'Concert One', cursive;
+  margin-left:5%;
+
+}
+.about img {
+  width: 60%;
+  z-index: -1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.about .row {
+  padding: 0;
+  margin: 0;
+}
+
+.about .card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.about p {
+  text-align: justify;
+}
+
+.icon {
+  margin: 2vh;
+}
+
+/*Services*/
+.services {
+  background-image: url(../images/doodle.jpg);
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.services h1{
+  font-family: 'Concert One', cursive;
+  margin-left:5%;
+}
+.services .row {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 80%;
+}
+
+.services .p1 {
+  border-radius: 100%;
+  height: 8vh;
+  width: 8vh;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.services .icon {
+  margin-left: 40%;
+}
+
+.teacher {
+  color: #E98580;
+}
+
+.food {
+  color: #48B836;
+}
+
+.excellent {
+  color: #587BD7;
+}
+
+.games {
+  color: #D0D40A;
+}
+.erp{
+  width: 100%;
+  height: auto;
+}
+.erp h1{
+  margin-top: 20px;
+}
+.erp img{
+  width: 300px;
+  height: 200px;
+  padding: 30px 30px 30px 30px;
+}
+
+.slider{
+  width: 100%;
+}
+.container-1{
+  max-width: 1040px;
+  margin: 100px auto;
+}
+.slider-1{
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 60px;
+}
+.slider-1:after{
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: #023c6c;
+  bottom: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.logo-slider .item{
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  border: 1px solid #111;
+}
+.logo-slider .slick-slide{
+  margin: 15px;
+}
+.item:hover{
+  display: block;
+  transition: all ease 0.3s;
+  transform: scale(1.1) translateY(-5px);
+}
+/*Footer*/
+h3{
+font-family: 'Concert One', cursive;
+color:white;
+margin-left:7%;
+margin-top:2%;
+}
+.footer p{
+  color:white;
+  margin-left:7%;
+  margin-right:7%;
+}
+.foot{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.footer li{
+  margin: 1vh;
+  display: inline;
+}
+/*Responsiveness*/
+@media screen and (max-width:720px) {
+  hr{
+    height:7px;
+    background-color:yellow;
+    border:none;
+    border-radius: 10px;
+    width:20%;
+    margin-left:6%;
+  }
+  .icon {
+    width: 20%;
+    height: 20%;
+  }
+
+  .kid-img img {
+    width: 50%;
+  }
+
+  .explore {
+    margin-left: 10%;
+  }
+
+  .book {
+    margin-left: 20%;
+  }
+
+  .child {
+    margin-left: 30%;
+  }
+
+  .icons h4 {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 0%;
+  }
+
+  .top .row {
+    padding-top: 15vh;
+  }
+
+  .kid-img img {
+    position: absolute;
+    bottom: 5%;
+    left: 54%;
+  }
+
+  .card {
+    margin-top: 8vh;
+  }
+
+  .programs .row {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .about .card {
+    width: 100%;
+  }
+
+  .about img {
+    display: block;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .top .row {
+    padding-top: 8vh;
+  }
+
+  .btn {
+    margin-left: 35%;
+  }
+
+  .card {
+    margin-top: 8vh;
+  }
+
+  .programs .card img {
+    border-radius: 100%;
+    width: 6vh;
+    height: 6vh;
+    position: relative;
+    left: 35%;
+    bottom: 45px;
+  }
+
+  .programs .row {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .about .card {
+    width: 100%;
+    display: block;
+  }
+
+  .about img {
+    display: block;
+    width: 40%;
+  }
+
+  .icons img {
+    width: 20%;
+    height: 20%;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .about img {
+    width: 80%;
+    height: 440px;
+  }
+
+  .about .card {
+    margin-left: -10vh;
+    margin-top: 2vh;
+    width: 120%;
+  }
+
+  .top {
+    padding-bottom: 2vh;
+  }
+
+  .programs .card .card-image {
+    width: 5vh;
+    height: 5vh;
+    position: absolute;
+    left: 35%;
+  }
+
+  .programs .card {
+    width: 200px;
+    height: 400px;
+  }
+
+  .services .icon {
+    margin-left: 30%;
+  }
+
+  .services .p1 {
+    width: 4vh;
+    height: 4vh;
+  }
+
+  .card-top {
+    margin-top: 45%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media screen and (min-width:1025px) {
+  .top .row {
+    padding-top: 17vh;
+  }
+
+  .card {
+    margin-top: 0vh;
+  }
+
+  .programs .row {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .programs .card {
+    width: 90%;
+  }
+
+  .about .card {
+    width: 100%;
+    margin-top: 4.5vh;
+    margin-left: -24vh;
+  }
+
+  .about img {
+    margin-left: 28vh;
+    margin-top: 1vh;
+    margin-bottom: 10vh;
+    width: 60%;
+    height: 64vh;
+  }
+
+  .programs .card {
+    width: 200px;
+    height: 300px;
+  }
+
+  .programs .card .card-image {
+    border-radius: 100%;
+    width: 7vh;
+    height: 7vh;
+    position: relative;
+    left: 40%;
+    top: 10px;
+    z-index: 1;
+  }
+
+  .services .p1 {
+    width: 8vh;
+    height: 8vh;
+  }
+
+  .services .icon {
+    margin-left: 35%;
+  }
+
+  .card-top {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+  }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My data</title>
+  </head>
+  <body>
+      <table>
+    <% contacts.forEach(function(cntct){%>
+
+          <tr>
+            <td><%=cntct.name%></td>
+              <td><%=cntct.email%></td>
+                <td><%=cntct.message%></td>
+          </tr>
+        <%})%>
+</table>
+  </body>
+</html>
